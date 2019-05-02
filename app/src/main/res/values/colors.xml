@@ -1,0 +1,41 @@
+<resources>
+    <color name="colorPrimary">#132235</color>
+    <color name="colorPrimaryDark">#00000f</color>
+    <color name="colorPrimaryLight">#4f5b62</color>
+    <color name="colorSecondary">#512da8</color>
+    <color name="colorSecondaryDark">#140078</color>
+    <color name="colorSecondaryLight">#8559da</color>
+    <color name="colorAccent">#8559da</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorTransparentWhite">#cccccc</color>
+    <color name="colorTransparentBlack">#80000000</color>
+    <color name="colorTransparentBlackExtra">#D8000000</color>
+    <color name="colorTransparentSecondaryDark">#80140078</color>
+    <color name="colorTransparentPrimaryLight">#804f5b62</color>
+    <color name="colorGreen">#00C853</color>
+    <color name="colorBlue">#00B0FF</color>
+    <color name="colorRed">#F44336</color>
+    <color name="colorJuneBud">#66b7d142</color>
+    <color name="colorDollarBill">#6681c14b</color>
+    <color name="colorSeaGreen">#662e933c</color>
+    <color name="colorDarkSpringGreen">#66297045</color>
+    <color name="colorEnglishGreen">#66204e4a</color>
+    <color name="colorBlack">#263238</color>
+    <color name="colorGrey">#37474F</color>
+    <color name="colorTransparentBlackDouble">#E6000000</color>
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorBackgroundGreen">#98D5CD</color>
+    <color name="colorHeavyGreen">#25768A</color>
+    <color name="colorFadingGreen">#98D5A1</color>
+    <color name="colorDiaryBlue">#0072BC</color>
+    <color name="tabTextColor">#BDBDBD</color>
+    <color name="tabSelectedTextColor">#FFFFFF</color>
+    <color name="colorDeepPurple700">#512da8</color>
+    <color name="colorGreen700">#388e3c</color>
+    <color name="colorDeepOrange700">#e64a19</color>
+    <color name="colorLight">#E8EAF6</color>
+    <color name="themegreen">#97D4CC</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

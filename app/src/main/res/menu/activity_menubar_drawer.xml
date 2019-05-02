@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/appintro4"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_dietPlanner"
+            android:icon="@drawable/food"
+            android:title="Diet Planner"
+            tools:icon="@drawable/food" />
+        <item
+            android:id="@+id/nav_nearby"
+            android:icon="@drawable/location"
+            android:title="Nearby" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/icon_friend"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/icon_settings1"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Log Out" />
+    </group>
+
+</menu>

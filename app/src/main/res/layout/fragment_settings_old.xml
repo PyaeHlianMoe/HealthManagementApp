@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile.FragmentSettings">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/genderRadioGroup"
+            android:layout_width="167dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="152dp">
+
+            <RadioButton
+                android:id="@+id/genderRadioGroup_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Female" />
+
+            <RadioButton
+                android:id="@+id/genderRadioGroup_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Male" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv_program"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="533dp"
+            android:text="Program"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_firstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="45dp"
+            android:text="First Name"
+            android:textStyle="bold" />
+        #e20434
+
+        <TextView
+            android:id="@+id/tv_lastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="109dp"
+            android:text="Last Name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="162dp"
+            android:text="Gender"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_dob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="222dp"
+            android:text="Date of Birth"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_cWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="282dp"
+            android:text="Current Weight"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="352dp"
+            android:text="Height"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_BMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="412dp"
+            android:text="BMI"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_tWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="462dp"
+            android:text="Target Weight"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/programRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="512dp">
+
+            <RadioButton
+                android:id="@+id/program_getfit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Get Fit" />
+
+            <RadioButton
+                android:id="@+id/program_gainmuscle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Gain Muscle" />
+
+            <RadioButton
+                android:id="@+id/program_loseweight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Lose Weight" />
+        </RadioGroup>
+
+
+        <EditText
+            android:id="@+id/editText_firstName"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="First Name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editText_lastName"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="92dp"
+            android:ems="10"
+            android:hint="Last Name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editText_dob"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="206dp"
+            android:ems="10"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/editText_height"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="336dp"
+            android:ems="10"
+            android:hint="Height"
+            android:inputType="numberDecimal" />
+
+
+        <EditText
+            android:id="@+id/editText_currentWeight"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="260dp"
+            android:ems="10"
+            android:hint="Current Weight"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editText_targetWeight"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="452dp"
+            android:ems="10"
+            android:hint="Target Weight"
+            android:inputType="numberDecimal" />
+
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="151dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="580dp"
+            android:background="#33ce7e"
+            android:text="Save" />
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
